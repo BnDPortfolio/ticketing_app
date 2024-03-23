@@ -4,11 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const PriorityDisplay = () => {
   return (
     <div className="flex justify-start align-baseline">
-      <FontAwesomeIcon icon={faFire} className="text-red-400" />
-      <FontAwesomeIcon icon={faFire} className="text-orange-400" />
-      <FontAwesomeIcon icon={faFire} className="text-green-400" />
-      <FontAwesomeIcon icon={faFire} className="text-yellow-400" />
-      <FontAwesomeIcon icon={faFire} className="text-red-700" />
+      <FontAwesomeIcon icon={faFire} className="text-green-400" /> Low
+      <FontAwesomeIcon icon={faFire} className="text-orange-400" /> Medium
+      <FontAwesomeIcon icon={faFire} className="text-red-700" /> High
     </div>
   );
 };
